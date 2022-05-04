@@ -1,0 +1,168 @@
+$primary: #2ad1b8;
+$grey: #424242;
+$grey-light: #616161;
+$grey-dark: #212121;
+
+.color {
+  color: $primary;
+}
+
+.Home {
+  //section {
+  //  scroll-snap-align: start;
+  //  scroll-snap-type: y proximity;
+  //}
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+    & > div {
+      display: flex;
+      justify-content: space-between;
+
+      .text {
+        display: flex;
+        flex-direction: column;
+
+        .name {
+          font-size: 80px;
+        }
+
+        .quote {
+          font-size: 30px;
+
+          .color {
+            color: $primary;
+            filter: drop-shadow(0 0 4px #000000);
+          }
+        }
+      }
+
+      img {
+        width: 250px;
+        height: auto;
+      }
+    }
+
+    .MuiButton-root {
+      width: 130px;
+      margin: auto;
+
+    }
+  }
+
+  .body {
+    border-radius: 30px 30px 0 0;
+    background-color: $grey;
+    min-height: 500px;
+
+    & > section {
+      scroll-snap-align: start;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .superpowers {
+        display: flex;
+        padding: 20px;
+
+      }
+
+      .title {
+        color: white;
+        font-size: 30px;
+        margin-top: 20px;
+      }
+
+      .superpower {
+        .color {
+          font-size: 25px;
+          margin-bottom: 40px;
+        }
+
+        div {
+
+        }
+
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: $grey-light;
+        margin: 20px;
+        padding: 40px;
+        border-radius: 20px;
+      }
+
+      .panel {
+        display: flex;
+        padding: 20px;
+
+        img {
+          width: 50%;
+          margin: 20px;
+          border-radius: 20px;
+
+        }
+
+        & > div {
+          margin: 20px;
+          padding: 20px;
+          border-radius: 20px;
+          width: 50%;
+          background-color: $grey-light;
+          height: auto;
+          width: 1fr;
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-row: auto auto;
+          grid-column-gap: 20px;
+          grid-row-gap: 20px;
+
+          .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+
+            .color {
+              font-size: 25px;
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 800px) {
+  .superpowers {
+    flex-direction: column;
+  }
+  .top > div {
+    flex-direction: column;
+  }
+}
