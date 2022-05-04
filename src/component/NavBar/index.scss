@@ -1,0 +1,21 @@
+.NavBar {
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  transition: background 0.2s;
+
+  div {
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    .MuiButton-root {
+      width: 130px;
+      margin: 5px;
+    }
+  }
+}

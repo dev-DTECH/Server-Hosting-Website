@@ -2,58 +2,51 @@
   color: #2ad1b8;
 }
 
-.Tos {
+.Contact {
   /* ff 3.6+ */
-  background: -moz-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  /* ie 10+ */
-  background: -ms-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  /* global 92%+ browsers support */
-  background: radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  background: #c7c7c7;
 }
-.Tos .top {
+.Contact .top {
   display: flex;
   flex-direction: column;
   padding: 10%;
   padding-top: 100px;
   padding-bottom: 20px;
 }
-.Tos .top > div {
+.Contact .top > div {
   display: flex;
   justify-content: space-between;
 }
-.Tos .top > div .text {
+.Contact .top > div .text {
   display: flex;
   flex-direction: column;
 }
-.Tos .top > div .text .name {
+.Contact .top > div .text .name {
   font-size: 80px;
 }
-.Tos .top > div .text .quote {
+.Contact .top > div .text .quote {
   font-size: 30px;
 }
-.Tos .top > div .text .quote .color {
+.Contact .top > div .text .quote .color {
   color: #2ad1b8;
   filter: drop-shadow(0 0 4px #000000);
 }
-.Tos .top > div img {
-  width: 250px;
+.Contact .top > div img {
+  width: 400px;
   height: auto;
 }
-.Tos .top .MuiButton-root {
+.Contact .top .MuiButton-root {
   width: 130px;
   margin: auto;
 }
-.Tos .body {
+.Contact .body {
+  display: flex;
   border-radius: 30px 30px 0 0;
   background-color: #424242;
-  min-height: 500px;
+  justify-content: space-evenly;
   padding: 1px;
 }
-.Tos .body > section {
+.Contact .body > section {
   display: flex;
   flex-direction: column;
   margin: 20px;
@@ -61,11 +54,11 @@
   border-radius: 20px;
   padding: 20px;
 }
-.Tos .body > section div {
+.Contact .body > section div {
   color: white;
   font-size: small;
 }
-.Tos .body > section .heading {
+.Contact .body > section .heading {
   color: #2ad1b8;
   font-size: x-large;
 }

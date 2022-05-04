@@ -1,3 +1,23 @@
+.color {
+  color: #2ad1b8;
+}
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #2ad1b8;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2ad1b8;
+  opacity: 0.1;
+}
 
 /*# sourceMappingURL=App.css.map */

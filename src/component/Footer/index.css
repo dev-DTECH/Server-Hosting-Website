@@ -1,3 +1,37 @@
-
+#footer {
+  display: flex;
+  background-color: #212121;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#footer .trustpilot-widget {
+  width: 100%;
+}
+#footer .cr {
+  color: white;
+  font-size: small;
+}
+#footer #flex {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+#footer #flex img {
+  width: 2fr;
+}
+#footer #flex div {
+  width: 1fr;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#footer #flex div h2 {
+  color: #2ad1b8;
+}
+#footer #flex div a {
+  text-decoration: none;
+  color: white;
+}
 
 /*# sourceMappingURL=index.css.map */

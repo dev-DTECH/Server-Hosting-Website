@@ -2,117 +2,64 @@
   color: #2ad1b8;
 }
 
-.Home {
+.Tos {
   /* ff 3.6+ */
-  background: -moz-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  /* ie 10+ */
-  background: -ms-radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
-  /* global 92%+ browsers support */
-  background: radial-gradient(circle at 50% 100vh, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  background: #c7c7c7;
 }
-.Home .top {
+.Tos .top {
   display: flex;
   flex-direction: column;
   padding: 10%;
   padding-top: 100px;
   padding-bottom: 20px;
 }
-.Home .top > div {
+.Tos .top > div {
   display: flex;
   justify-content: space-between;
 }
-.Home .top > div .text {
+.Tos .top > div .text {
   display: flex;
   flex-direction: column;
 }
-.Home .top > div .text .name {
+.Tos .top > div .text .name {
   font-size: 80px;
 }
-.Home .top > div .text .quote {
+.Tos .top > div .text .quote {
   font-size: 30px;
 }
-.Home .top > div .text .quote .color {
+.Tos .top > div .text .quote .color {
   color: #2ad1b8;
   filter: drop-shadow(0 0 4px #000000);
 }
-.Home .top > div img {
-  width: 250px;
+.Tos .top > div img {
+  width: 400px;
   height: auto;
 }
-.Home .top .MuiButton-root {
+.Tos .top .MuiButton-root {
   width: 130px;
   margin: auto;
 }
-.Home .body {
+.Tos .body {
   border-radius: 30px 30px 0 0;
   background-color: #424242;
   min-height: 500px;
+  padding: 1px;
 }
-.Home .body > section {
-  scroll-snap-align: start;
+.Tos .body > section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.Home .body > section .superpowers {
-  display: flex;
-  padding: 20px;
-}
-.Home .body > section .title {
-  color: white;
-  font-size: 30px;
-  margin-top: 20px;
-}
-.Home .body > section .superpower {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 20px;
   background-color: #616161;
-  margin: 20px;
-  padding: 40px;
   border-radius: 20px;
-}
-.Home .body > section .superpower .color {
-  font-size: 25px;
-  margin-bottom: 40px;
-}
-.Home .body > section .panel {
-  display: flex;
   padding: 20px;
 }
-.Home .body > section .panel img {
-  width: 50%;
-  margin: 20px;
-  border-radius: 20px;
-}
-.Home .body > section .panel > div {
-  margin: 20px;
-  padding: 20px;
-  border-radius: 20px;
-  width: 50%;
-  background-color: #616161;
-  height: auto;
-  width: 1fr;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-row: auto auto;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-}
-.Home .body > section .panel > div .feature {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Tos .body > section div {
   color: white;
+  font-size: small;
 }
-.Home .body > section .panel > div .feature .color {
-  font-size: 25px;
-  margin-bottom: 20px;
+.Tos .body > section .heading {
+  color: #2ad1b8;
+  font-size: x-large;
 }
 
 @media screen and (max-width: 800px) {
